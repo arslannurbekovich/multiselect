@@ -1,0 +1,58 @@
+{
+  "name": "multiselect",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-svg-core": "^1.3.0",
+    "@syncfusion/ej2-vue-dropdowns": "^19.4.54",
+    "bootstrap": "^5.1.3",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.8.3",
+    "element-react": "^1.4.34",
+    "element-theme-default": "^1.4.13",
+    "element-ui": "^2.15.6",
+    "vue": "^2.6.14",
+    "vue-multi-select": "^4.6.0",
+    "vue-multiselect": "^2.1.6",
+    "vue-router": "^3.5.1",
+    "vuedraggable": "^2.24.3",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
